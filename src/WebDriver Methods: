@@ -1,0 +1,24 @@
+    -maximize vs fullScreen         -> covers the screen
+    -get vs navigate().to()         -> directs user to the given URL
+    -close vs quit                  -> closes the tab or the window
+    -getTitle vs getCurrentURL      -> gets the title or URL
+
+    NAVIGATION:
+    navigate().to(url)              -> directs user to the given URL
+    navigate().back()               -> navigate user to previous page
+    navigate().forward()            -> navigate user forward page
+    navigate().refresh()            -> refresh the page
+
+    ------------------------------------------------------------------------------------------
+
+    isDisplayed()                   -> method is used to verify the presence of a particular
+                                       web element and it will return true ifelement is found,
+                                       and false otherwise (Can be used for any elements)
+
+    isEnabled()                     -> is mostly used with buttons and it verifies if the web
+                                       element is enabled or disabled (Can be used for elements that
+                                       are clickable: -button, -a, -checkbox, -radio buttons;)
+
+    isSelected()                    -> is mostly used with radio buttons, dropdowns and checkboxes
+                                       and it verifies if the web element is selected or not
+                                       (    -checkbox, -radio buttons, - )
