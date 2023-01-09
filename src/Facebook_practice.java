@@ -3,8 +3,8 @@ import org.openqa.selenium.WebDriver;
 import utils.Driver;
 
 public class Facebook_practice {
-    public static void main(String[] args) throws InterruptedException {
-
+    public static void main(String[] args){
+    try {
         WebDriver driver = Driver.getDriver();
         driver.manage().window().maximize();
 
@@ -43,7 +43,9 @@ public class Facebook_practice {
         if (driver.findElement(By.xpath("//div[@class=\"_6ltg\"]//a[@role=\"button\"]")).isDisplayed())
             System.out.println("“Create New Account” button validation is PASSED");
         else System.out.println("“Create New Account” button validation is FAILED");
-
-        driver.quit();
+    }catch (Exception ignored){
+    } finally {
+        Driver.quitDriver();
+    }
     }
 }
