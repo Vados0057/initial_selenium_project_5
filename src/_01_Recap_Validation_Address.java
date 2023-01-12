@@ -24,6 +24,9 @@ public class _01_Recap_Validation_Address {
 
             }
 
+            // Wiki search //div[@class='search-input']
+            // //button[@class='pure-button pure-button-primary-progressive']
+
 //            WebElement facebook = driver.findElement(By.id("Footer_facebook__UiT2a"));
 //            WebElement instagram = driver.findElement(By.id("Footer_instagram__0NXVy"));
 //
